@@ -44,7 +44,7 @@
 
 /* banner area */
 .site-main .site-banner{
-    background: url(../img/transparent-background-image.png) no-repeat 0% 50%;
+    background: url(../img/transparent-bg-img.jpg) no-repeat 20% 30%;
 }
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
@@ -137,6 +137,12 @@
 .site-main .services-area .services-title{
     padding: 0 14rem;
 }
+
+.site-main .services-area .services-list .services .services-img img{
+    width: 180px;
+    height: 250px;
+}
+
 .site-main .services-area .services-title h1{
     font-size: 35px;
 }
@@ -163,6 +169,10 @@
     border: none;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
+}
+.site-main .project-area .grid .our-project .img img{
+    width: 20rem;
+    height: 15rem;
 }
 .site-main .project-area .button-group button + button{
     padding-left: 3rem;
