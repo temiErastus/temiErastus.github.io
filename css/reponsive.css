@@ -17,20 +17,38 @@
         height: 13rem;
     }
     
+    .site-main .about-area .about-title{
+        width: 13rem;
+    } 
+    
     .site-main .site-banner .site-title h1{
-        font-size: 41px;
+        font-size: 35px;
     }
     
     .site-main .subscribe-us-area .suscribe form .input-textbox input{
         width: 15rem;
     }
     
+    .site-main .subscribe-us-area .subscribe{
+        background-color: black
+    }
+    
     .site-main > .services-area .services{
         width: 13rem;
     }
     
+    .site-main .project-area .grid .our-project #ajoda{
+        width: 1vw;
+    }
+    
+    .site-main .site-banner .site-title .site-buttons{
+        padding: 2%;
+    }
     
 }
+
+/* If the viewport is equal to 790px or less than that */
+@media only screen and (max-width: )
 
 /* If the viewport is equal to 790px or less than that */
 @media only screen and (max-width: 792px){
@@ -64,6 +82,10 @@
     .site-main .subscribe-us-area .subscribe form .input-textbox  input{
         width: 20rem;
         margin: 5%;
+    }
+    
+    .site-main .site-banner .site-title .site-buttons{
+        padding: 2%;
     }
 }
 
