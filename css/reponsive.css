@@ -6,7 +6,7 @@
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4 .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4, .site-main .services-area,
     .site-main .subscribe-us-area .subscribe
     {
         padding: 2%;
@@ -22,15 +22,15 @@
     } 
     
     .site-main .site-banner .site-title h1{
-        font-size: 35px;
+        font-size: 25px;
     }
     
     .site-main .subscribe-us-area .suscribe form .input-textbox input{
-        width: 15rem;
+        width: 15rem !important;
     }
     
     .site-main .subscribe-us-area .subscribe{
-        background-color: black
+        background-color: black;
     }
     
     .site-main > .services-area .services{
@@ -47,8 +47,7 @@
     
 }
 
-/* If the viewport is equal to 790px or less than that */
-@media only screen and (max-width: )
+
 
 /* If the viewport is equal to 790px or less than that */
 @media only screen and (max-width: 792px){

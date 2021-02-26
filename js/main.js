@@ -36,24 +36,6 @@ $(document).ready(function(){
   $("button.navbar-toggler").click(function(){
       $("#navbarNav").toggle("hide");
   });
-    
-    /* Get CV */
-    $("#request").click(function() {
-    // // hope the server sets Content-Disposition: attachment!
-    window.location = 'documents/techCV.odt';
-   });
-    
-    $("#downloadcv").click(function() {
-    // // hope the server sets Content-Disposition: attachment!
-    window.location = 'documents/techCV.odt';
-   });
-    
-    /* Send to my mail */
-    $("#mybutton").click(function() {
-        ("#form").attr('action', 'mailto:temifolami@aol.com?subject=' + $("#txtemail").val());
-        $("#form").submit();
-    })
-    
 
     
 });
