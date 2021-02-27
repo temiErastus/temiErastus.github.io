@@ -74,6 +74,10 @@
         font: normal 500 18px/40px var(--roboto);
     }
     
+    .site-main .site-banner .site-title h1{
+        font-size: 10vw;
+    }
+    
     .site-main .about-area .about-title p{
         padding: 0%;
     }
